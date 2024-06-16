@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background: url(../images/spa-wide-photo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: system-ui;
+  font: 1.5em sans-serif;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: system-ui;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+footer .links {
+  margin-bottom: 50px;
+}
+
+footer .links > a {
+  color: #53953f;
+  padding: 5px 25px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.copyright {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.news {
+  background-image: url(../images/background.avif);
+  padding: 50px 0 32px;
+}
+
+article {
+  width: 768px;
+  margin: 0 auto 32px;
+  padding: 6px 15px;
+  background-color: #ebf6e1;
+  border-bottom: 1px solid #a7b29d;
+  border-radius: 15px;
+  background-color: Snow;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+article a {
+  color: black;
+  text-decoration: none;
+}
+
+article a:hover {
+  color: blue;
+}
+
+article h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.article-meta {
+  color: black;
+  margin-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+article img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login {
+  background-color: #53953f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: system-ui;
+  font-size: 1rem;
+}
+
+.dateInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+
+input[type="date"] {
+  background-color: #53953f;
+  padding: 15px;
+  /* position: absolute;
+  transform: translate(-50%, -50%); */
+  color: white;
+  font-family: "Robot Mono" monospace;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-color: white;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#bdayconfirm {
+  background-color: #53953f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  font-family: system-ui;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.dateInput {
+  font-size: 1.25rem;
+  font-family: system-ui;
+  padding: 2rem;
+  background: radial-gradient(circle 900px, white, #7b9a71 );
+}
